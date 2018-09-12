@@ -34,7 +34,7 @@ function setup() {
 }
 
 function draw() {
-    background(75);
+    background(150);
     for (var i = 0; i < vehicles.length; i++) {
         var v = vehicles[i];
         v.behaviors();
